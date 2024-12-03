@@ -1,0 +1,9 @@
+msg = "ola mundo"
+
+print (msg)
+
+// nome e .format
+
+nome = input ("Qual o seu nome? ")
+
+print ("É uma prazer te conhecer, {}!".format(nome))
