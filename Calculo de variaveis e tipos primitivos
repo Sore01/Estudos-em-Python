@@ -1,4 +1,136 @@
+# somatoria simples e "longa"
 n1 = int( input ('digite um numero '))
 n2 = int( input ('digite outro numero '))
 s= n1+n2
 print('A soma vale entre ',n1 ,'e',n2, 'é de {}'.format(s))
+
+-----------------------------------------------------------------------------------------------------
+# mais facil e "curto" 
+
+n1 = int( input ('digite um numero '))
+n2 = int( input ('digite outro numero '))
+s= n1+n2
+print('A soma entre {} e {} vale {}'.format(n1,n2,s))
+---------------------------------------------------------------------------------------------------
+# .isnumeric       ( true ou flase para números)
+
+n = input('Digite algo: ')
+print (n.isnumeric())
+----------------------------------------------------------------------------------------------------
+# .isalpha   ( true ou false em letras )
+
+n = input('Digite algo: ')
+print (n.isalpha())
+----------------------------------------------------------------------------------------------------
+# isalnum         ( alpha + numero   que seria tanto nuemro quanto letras, mas sem nada é falso)
+
+n = input('Digite algo: ')
+print (n.isalnum())
+---------------------------------------------------------------------------------------------------
+# Exercicio 1 ( domatoria entre dois valores com .formart )
+
+n1 = float(input('Valor do primeiro produto '))
+n2 = float(input('Insira o valor do outro produto '))
+s = n1 + n2
+print('O total da compra de {} e {} é de {}'.format(n1,n2,s))
+---------------------------------------------------------------------------------------------------
+# exercicio 2 ( Faça um programa que leia algo pelo teclado e mostre na sua tela o seu tipo primirtivo e todas as informaçoes possiveis sobre ele. )
+
+n = input('Digite algo: ')
+print ('Esse algo é um numero : ',n.isnumeric(),' é um numero e letra: ', n.isalnum(),'é só letra :', n.isalpha())
+--------------------------------------------------------------------------------------------------------
+# outra forma de fazer o exercicio 2 
+
+n = input('Digite algo: ')
+print ('Esse algo é um numero? ',n.isnumeric())
+print ('É um numero e letra? ', n.isalnum())
+print ('É letra ? ', n.isalpha())
+----------------------------------------------------------------------------------------------------------
+# correçao exercicio 2
+
+a =input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(a))
+print('só tem espaços? ',a.isspace ())
+print('é um numero? ', a.isnumeric())
+print('é alphanumerico? ', a.isalnum())
+print('é maiusculo ? ', a.isupper())
+print('está em minusculas ?', a.islower())
+print('está capitalizada ? ', a.istitle())
+--------------------------------------------------------------------------------------------------------------------
+# outra forma de fazer o exercicio 2
+
+a = input('Digite algo: ')
+print(f'O tipo primitivo desse valor é {type(a)}')
+print(f'Só tem espaços? {a.isspace()}')
+print(f'É um número? {a.isnumeric()}')
+print(f'É alfabético? {a.isalpha()}')
+print(f'É alfanumérico? {a.isalnum()}')
+print(f'Está em maiúsculas? {a.isupper()}')
+print(f'Está em minúsculas? {a.islower()}')
+print(f'Está capitalizado? {a.istitle()}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
